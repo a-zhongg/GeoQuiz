@@ -35,16 +35,23 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center">
 
-    <ImageButton
-        android:id="@+id/prev_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|left"
-        android:layout_marginTop="200dp"
-        android:contentDescription=""
-        android:src="@drawable/arrow_left" />
+        <Button
+            android:id="@+id/cheat_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:text="@string/cheat_button" />
 
-    <ImageButton
+        <ImageButton
+            android:id="@+id/prev_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_marginTop="200dp"
+            android:contentDescription=""
+            android:src="@drawable/arrow_left" />
+
+        <ImageButton
         android:id="@+id/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
