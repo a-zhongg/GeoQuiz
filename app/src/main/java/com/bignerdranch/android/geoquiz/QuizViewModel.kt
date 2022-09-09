@@ -10,12 +10,12 @@ class QuizViewModel : ViewModel() {
     var isCheater = false
 
     private val questionBank = listOf(
-        Question(R.string.question_australia, true),
-        Question(R.string.question_oceans, true),
-        Question(R.string.question_mideast, false),
-        Question(R.string.question_africa, false),
-        Question(R.string.question_americas, true),
-        Question(R.string.question_asia, true))
+        Question(R.string.question_cheesecake, false),
+        Question(R.string.question_pizza, true),
+        Question(R.string.question_salad, false),
+        Question(R.string.question_fries, true),
+        Question(R.string.question_peanutbutter, true),
+        Question(R.string.question_fish, false))
 
     val currentQuestionAnswer:Boolean
         get() = questionBank[currentIndex].answer
